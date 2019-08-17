@@ -105,7 +105,7 @@ function draw() {
 	const [x2, y2] = points[midIdx+1]
 	const alpha = math.atan((y2-y1) / (x2-x1))
 	translate(x1, y1)
-	rotate(alpha + 0.5*PI)
+	rotate(alpha - 0.5*PI)
 
 	fill(200, 0, 0)
 	beginShape()

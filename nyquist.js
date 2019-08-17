@@ -6,7 +6,7 @@ var input = null
 function onTfChange() {
 	// Create transfer function
 	let  tf = input.value()
-	tf = "G(w)=" + tf.replace(/s/g, 'i*w')
+	tf = "G(w)=" + tf.replace(/s/g, '(i*w)')
 
 	// Try to parse
 	let G
